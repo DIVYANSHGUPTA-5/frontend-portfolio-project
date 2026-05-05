@@ -27,7 +27,7 @@ const projects = [
     image: "/Projects/Frontend Portfolio Website.png",
     description:
       "Built a responsive personal portfolio to showcase projects and skills using React and Vite. Designed reusable UI components with Tailwind CSS for a clean and consistent interface. Integrated Web3Forms API for contact form submission without backend. Optimized performance using Vite build system and modular architecture.",
-    tags: ["React", "Vite", "JavaScript (JSX)", "Tailwind CSS", "HTML", "CSS"],
+    tags: ["React", "Vite", "JavaScript (JSX)", "Tailwind CSS", "HTML", "CSS", "Web3Forms"],
     demoUrl: "https://frontend-portfolio-project-wtfm.onrender.com",
     gitHuburl: "https://github.com/DIVYANSHGUPTA-5/frontend-portfolio-project",
   },
