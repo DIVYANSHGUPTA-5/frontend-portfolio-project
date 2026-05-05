@@ -21,6 +21,16 @@ const projects = [
     demoUrl: "https://journalapp-1-ne46.onrender.com",
     gitHuburl: "https://github.com/DIVYANSHGUPTA-5/journalApp",
   },
+  {
+    id: 3,
+    title: "Frontend Portfolio Website",
+    image: "/Projects/Frontend Portfolio Website.png",
+    description:
+      "Built a responsive personal portfolio to showcase projects and skills using React and Vite. Designed reusable UI components with Tailwind CSS for a clean and consistent interface. Integrated Web3Forms API for contact form submission without backend. Optimized performance using Vite build system and modular architecture.",
+    tags: ["React", "Vite", "JavaScript (JSX)", "Tailwind CSS", "HTML", "CSS"],
+    demoUrl: "https://frontend-portfolio-project-wtfm.onrender.com",
+    gitHuburl: "https://github.com/DIVYANSHGUPTA-5/frontend-portfolio-project",
+  },
 ];
 export const ProjectSection = () => {
   return (
