@@ -16,8 +16,8 @@ const projects = [
     title: "Journal Management System",
     image: "/Projects/Journal Management System.jpeg",
     description:
-      "Secure multi-user journal system with JWT authentication, OAuth2 Google Login, role-based access control, scheduler-based email notifications, and Swagger API documentation.",
-    tags: ["Java", "Spring Boot", "Spring Security", "MongoDB", "REST APIs", "Google OAuth2", "Swagger", "Render", "JWT", "Postman"],
+      "Secure multi-user journal system with JWT authentication, OAuth2 Google Login, Redis caching, role-based access control, scheduler-based email notifications, and Swagger API documentation.",
+    tags: ["Java", "Spring Boot", "Spring Security", "MongoDB", "Redis", "REST APIs", "Google OAuth2", "Swagger", "Render", "JWT", "Postman"],
     demoUrl: "https://journalapp-1-ne46.onrender.com",
     gitHuburl: "https://github.com/DIVYANSHGUPTA-5/journalApp",
   },
