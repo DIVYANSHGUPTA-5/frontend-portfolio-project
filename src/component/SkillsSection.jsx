@@ -5,27 +5,27 @@ const skills = [
   // Languages
   { name: "Java", category: "Languages" },
   { name: "Python", category: "Languages" },
-  { name: "HTML, C & C++", category: "Languages" },
-  { name: "TypeScript", category: "Languages" },
+  { name: "C & C++", category: "Languages" },
   // Frontend
+  { name: "HTML", category: "Frontend" },
   { name: "React & JavaScript", category: "Frontend" },
   { name: "CSS", category: "Frontend" },
   // Backend
-  { name: "Spring Boot & Cloud", category: "Backend" },
+  { name: "Spring Boot", category: "Backend" },
   { name: "REST APIs", category: "Backend" },
   { name: "RabbitMQ", category: "Backend" },
-  { name: "JUnit", category: "Backend" },
+  { name: "JWT", category: "Backend" },
   { name: "Keycloak", category: "Backend" },
+  { name: "Microservices", category: "Backend" },
   // Databases
   { name: "MongoDB", category: "Databases" },
   { name: "PostgreSQL", category: "Databases" },
   { name: "MySQL", category: "Databases" },
   { name: "Redis", category: "Databases" },
-  // DevOps
-  { name: "Docker & Render", category: "DevOps" },
-  { name: "Microservices", category: "DevOps" },
   // Tools
   { name: "Git & GitHub", category: "Tools" },
+  { name: "Docker", category: "Tools" },
+  { name: "Render", category: "Tools" },
   { name: "Postman", category: "Tools" },
   { name: "VS Code", category: "Tools" },
   { name: "SonarQube", category: "Tools" },
@@ -37,7 +37,7 @@ const skills = [
   { name: "Computer Networks", category: "Core CS" },
 ];
 
-const categories = ["all", "Languages", "Frontend", "Backend", "Databases", "DevOps", "Tools", "Core CS"];
+const categories = ["all", "Languages", "Frontend", "Backend", "Databases", "Tools", "Core CS"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
